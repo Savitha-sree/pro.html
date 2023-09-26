@@ -1,0 +1,45 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body
+{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 70px 240px 60px;
+    grid-gap:10px;
+    grid-template-rows: 50px 200px 50px;
+}
+.header
+{
+    background-color: antiquewhite;
+    grid-column: 1/4;
+}
+.left
+{
+    background-color: aqua;
+}
+.center
+{
+    background-color: blueviolet;
+}
+.right
+{
+    background-color: yellowgreen;
+}
+.footer
+{
+    background-color: violet;
+    grid-column: 1/4;
+}
+
