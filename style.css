@@ -37,6 +37,9 @@ img
 {
     width: 300px;
     height:320px;
+    clip-path: circle(50.0% at 50% 50%);
+    background-color: rgb(102, 145, 183)
+
 }
 .about_section
 {
